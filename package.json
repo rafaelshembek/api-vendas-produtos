@@ -1,0 +1,17 @@
+{
+  "name": "api-vendas-produtos",
+  "version": "1.0.0",
+  "description": "api para cadastrar vendas de produtos",
+  "license": "ISC",
+  "author": "antonio rafael da silva gomes",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.56.0",
+    "dotenv": "^17.2.1",
+    "fastify": "^5.5.0"
+  }
+}

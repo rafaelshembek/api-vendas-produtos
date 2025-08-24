@@ -1,0 +1,12 @@
+GET http://localhost:3000/
+
+####
+
+POST http://localhost:3000/produto
+Content-Type: application/json
+
+{
+    "name": "NoteBook Aspire 5",
+    "preco": 2500,
+    "description": "So um produto de exemplo"
+}
